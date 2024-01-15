@@ -1,0 +1,92 @@
+.register {
+  height: 100vh;
+  background-color: #096a47;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .card {
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: white;
+    border-radius: 10px;
+    min-height: 600px;
+    overflow: hidden;
+
+    .left {
+      flex: 1;
+      background: linear-gradient(rgba(42, 156, 116, 0.5), rgba(42, 156, 116, 0.5)),
+        url("vecteezy_university-building-icon_.jpg")
+          center no-repeat;
+      background-size: 80% 80%;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      color: white;
+
+
+      h1 {
+        font-size: 50px;
+        line-height: 50px;
+        margin-top: 200px;
+      }
+      
+      p {
+      }
+
+      span {
+        font-size: 14px;
+      
+      }
+      
+      button {
+        width: 50%;
+        padding: 10px;
+        border: none;
+        background-color: white;
+        color: #096a47;
+        font-weight: bold;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+    }
+
+    .right {
+      flex: 1;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      justify-content: center;
+
+      h1 {
+      color: #096a47;
+      }
+      
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        
+        input {
+        border: none;
+        border-bottom: 1px solid lightgray;
+        padding: 20px 10px;
+        }
+        
+        button {
+          width: 50%;
+          padding: 10px;
+          border: none;
+          background-color:#096a47;
+          color: white;
+          font-weight: bold;
+          border-radius: 10px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
